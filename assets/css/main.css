@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
+.card {
+    height: 100%
+}
+
+.card-img-top {
+    height: 10rem
+}
 
 .rounded-circle {
     max-width: 50%;
