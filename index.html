@@ -39,8 +39,7 @@
           <h2>Hello.</h2>
         </header>
         <p>
-          My name is <strong>Brian Song</strong> and I am a Full Stack
-          Developer.
+          My name is <strong>Brian Song</strong> and I am a Software Developer.
         </p>
         <footer>
           <a href="#about" class="button style2 down">More</a>
@@ -55,10 +54,13 @@
           <h2>About Me</h2>
         </header>
         <p>
-          As an experienced full stack developer, I have honed my skills in
+          In my current role, I am a Lead Data Engineer and I have experience in 
+          establishing highly scalable data pipelines using Databricks. I perform ETL
+          processes to ingest and transform data from external sources into S3 tables.
+          I am also experienced in developing Full Stack applications. I have honed my skills in
           React, Node, and Python to create high-quality web applications and
           solutions that meet the needs of my clients and users. With my diverse
-          background and certifications in Tensorflow, PMI-ACP, and AWS, I have
+          background and certifications in Product Management, Tensorflow, PMI-ACP, and AWS, I have
           a proven ability to stay current with the latest cutting-edge
           technologies, ensuring that the software I deliver is innovative and
           efficient.
@@ -91,11 +93,68 @@
               <div class="card" style="width: 18rem">
                 <img
                   class="card-img-top"
+                  src="./images/baysidehousingvisualization.png"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bayside NY Housing Data & Visualization | Python, React, Node</h5>
+                  <p class="card-text">
+                    Produced Housing Data Visualization by employing webscraping techniques to gather data from Zillow.
+                    Implemented an Airflow-based ETL pipeline to ensure the consistent ingestion of new data, organizing it into bronze, silver, and gold tables for enhanced analysis.
+                  </p>
+                  <a
+                    type="button"
+                    onClick="window.open('https://housing-visualization-frontend.onrender.com/','_blank');"
+                    class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="from-right">
+            <div class="content box style2">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
+                  src="./images/gmailspamidentifier.png"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Gmail Spam Identifier | Flask, TensorFlow
+                  </h5>
+                  <p class="card-text">
+                    Email spam identifier made using Kaggle Dataset, trained by TensorFlow and deployed using Flask / Princess.
+                    Email is accessed via IMAP and marked as spam based on TensorFlow model. 
+                  </p>
+                  <p class="card-text">
+                  Upon first load, the website will take a minute to load
+                    as the server is starting up.
+                  </p>
+                  <a
+                    onClick="window.open('https://gmail-spam-identifier.onrender.com/','_blank');"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+
+        <div class="gallery">
+          <article class="from-left">
+            <div class="content box style2">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="card-img-top"
                   src="./images/bouncingsimulator.jpg"
                   alt=""
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Bouncing Simulator, Javascript</h5>
+                  <h5 class="card-title">Bouncing Simulator | React</h5>
                   <p class="card-text">
                     Simulation made of a ball bouncing on impact with walls
                     using React.
@@ -121,7 +180,7 @@
                 />
                 <div class="card-body">
                   <h5 class="card-title">
-                    Time Complexity Visualizer, Javascript
+                    Time Complexity Visualizer | React
                   </h5>
                   <p class="card-text">
                     Visualizer made to help see the difference in speed between
@@ -147,7 +206,7 @@
                   alt=""
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Notes Dashboard, Python</h5>
+                  <h5 class="card-title">Notes Dashboard | Django</h5>
                   <p class="card-text">
                     Dashboard made using Django which includes user
                     authenication. Users have easy access to create notes, a
@@ -171,7 +230,7 @@
                 </video>
                 <div class="card-body">
                   <h5 class="card-title">
-                    ListSharing App for Android/ISO, Javascript
+                    ListSharing App for Android/ISO | React Native
                   </h5>
                   <p class="card-text">
                     A todo app where users can share, edit, and delete tasks
@@ -190,7 +249,7 @@
                   <source src="./videos/animalqueue.mp4" type="video/mp4" />
                 </video>
                 <div class="card-body">
-                  <h5 class="card-title">Animal Queue, Java</h5>
+                  <h5 class="card-title">Animal Queue | Java</h5>
                   <p class="card-text">
                     Adoption queue made using Java and MySQL to demonstrate the
                     queue data structure, FIFO or first in first out. This queue
@@ -208,7 +267,7 @@
                   <source src="./videos/ratemydate.mp4" type="video/mp4" />
                 </video>
                 <div class="card-body">
-                  <h5 class="card-title">RateMyDate, Javascript</h5>
+                  <h5 class="card-title">RateMyDate | React, Node</h5>
                   <p class="card-text">
                     A web application made using React, Node, and MSSQL where
                     users can rate their dates. In the event that there are
@@ -230,20 +289,24 @@
           <h2>Work Experience</h2>
         </header>
         <p>
-          <strong>Bruker</strong>, <i>Data Science & Quality Engineer</i> -
-          09/21 - Present
+          <strong>Booz Allen Hamilton</strong>, <i>Lead Data Engineer</i> -
+          04/2023 - Present
         </p>
         <p>
-          <strong>WisEngineering</strong>, <i>Mechanical Engineer</i> - 07/19 -
-          07/21
+          <strong>Bruker OST</strong>, <i>Data Science & Quality Engineer</i> -
+          07/2021 - 04/2023
         </p>
         <p>
-          <strong>Pratt & Whitney</strong>, <i>Structures Engineer</i> - 09/16 -
-          07/19
+          <strong>WisEngineering</strong>, <i>Mechanical Engineer</i> - 07/2019 -
+          07/2021
+        </p>
+        <p>
+          <strong>Pratt & Whitney</strong>, <i>Structures Engineer</i> - 09/2016 -
+          07/2019
         </p>
         <p>
           <strong>General Dynamics Electric Boat</strong>,
-          <i>Mechanical Engineer</i> - 08/15 - 09/16
+          <i>Mechanical Engineer</i> - 08/2015 - 09/2016
         </p>
       </div>
       <a href="#education" class="button style2 down anchored">Next</a>
@@ -259,27 +322,34 @@
           onClick="window.open('https://www.credly.com/badges/5ee89e3a-3179-4240-8d39-1776f5e10f6e/public_url','_blank');"
           target="_blank"
         >
-          <strong>PMI Agile Certified Practitioner (PMI-ACP)</strong>, 01/23
+          <strong>PMI Agile Certified Practitioner (PMI-ACP)</strong>, 01/2023
         </p>
         <p
           onClick="window.open('https://www.credly.com/badges/e66a3dd5-3b1b-4028-99c7-8487f2f2340c/public_url','_blank');"
           target="_blank"
         >
-          <strong>AWS Certified Cloud Practitioner</strong>, 10/22
+          <strong>AWS Certified Cloud Practitioner</strong>, 10/2022
         </p>
         <p
           onClick="window.open('https://www.credential.net/7c541f4d-e3dc-4412-9233-06489dacfb7a#gs.bdry33','_blank');"
           target="_blank"
         >
-          <strong>TensorFlow Developer Certificate</strong>, 09/22
+          <strong>TensorFlow Developer Certificate</strong>, 09/2022
+        </p>
+        <p
+          onClick="window.open('./images/cornellproductmanagementcertificate.png', '_blank');"
+          target="_blank" 
+        >
+          <strong>Cornell University</strong>,
+          <i>Product Management for Engineers Certificate</i> - 08/2023
         </p>
         <p>
           <strong>University of Connecticut</strong>,
-          <i>Masters of Engineering, Mechanical Engineering</i> - 12/18
+          <i>Masters of Engineering, Mechanical Engineering</i> - 12/2018
         </p>
         <p>
           <strong>Binghamton University</strong>,
-          <i>Bachelor of Science, Mechanical Engineering</i> - 05/15
+          <i>Bachelor of Science, Mechanical Engineering</i> - 05/2015
         </p>
       </div>
       <a href="#contact" class="button style2 down anchored">Next</a>
